@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML TASK 1</title>
+  
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hi, I'm Adefisoye Abolaji, a passionate web developer.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a web developer with expertise in HTML, CSS, JavaScript, and more. I love building responsive and user-friendly websites.</p>
+    <h3>Skills</h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+    </ul>
+  </section>
+
+  <!-- Work Section -->
+  <section id="work">
+    <h2>My Work</h2>
+    <p>Here are some of my recent projects:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>A responsive website for a local business.</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>An e-commerce platform built with React.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>Download my resume to learn more about my experience and qualifications.</p>
+    <a href="resume.pdf" download>Download Resume</a>
+    <h3>Education</h3>
+    <ul>
+      <li>Bachelor's in Computer Information System - Babcock University</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Video/Audio Section -->
+  <section>
+    <h2>My Introduction Video</h2>
+    <video controls width="400">
+      <source src="intro.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <h2>My Favorite Audio</h2>
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 [Your Name]. All rights reserved.</p>
+  </footer>
+</body>
+</html>
